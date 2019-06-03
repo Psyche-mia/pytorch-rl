@@ -4,7 +4,7 @@ import random
 import numpy as np
 
 Transition = namedtuple('Transition',
-                        ('state', 'action', 'next_state', 'reward', 'done'))
+                        ('state', 'action', 'next_state', 'reward', 'done', 'success'))
 
 
 # Segment tree data structure where parent node values are sum/max of children node values
